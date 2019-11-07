@@ -8,10 +8,14 @@
             width: 15em;
             background-color: lightgrey;
             float: left;
+
         }
         .article{
+            padding: 1px;
+            width: auto;
             background-color: gray;
             margin-bottom: .2em;
+            overflow: hidden;
 
         }
         .footer{
@@ -22,37 +26,43 @@
             list-style-type: disc;
         }
 
+
+
+
     </style>
 </head>
 <body>
-    <div class="navigation"><strong>Блок навигации</strong>
-        <p style="margin-bottom: inherit">поиск нормального контента - тоже тяжелая задача, поэтому из задания :)</p>
+    <div class="navigation"><h3>Блок навигации</h3>
+        <p>поиск нормального контента - тоже тяжелая задача, поэтому из задания :)</p>
         <ul class="list">
             <li>Ширина 15em</li>
             <li>Должен присутствовать цвет фона</li>
             <li>Располагается слева</li>
             <li>Блок захватывает вторую статью</li>
         </ul>
+
     </div>
-    <div class="article"><strong>Статья 1</strong>
-        <p style="margin-bottom: inherit">Размер блока:<br>
+    <div class="article"><h3>Статья 1</h3>
+        <p>Размер блока:<br>
             Занимает всю доступную ширину<br>
             Присутсвует цвет фона<br>
             Отступ снизу от соседей .2em при свойстве margin-bottom<br>
             еще строка
         </p>
     </div>
-    <div class="article"><strong>Статья 2</strong>
-        <img src="icon_mail.png" align="right">
-        <p style="margin-bottom: inherit">Размер блока:<br>
+    <div class="article"><h3>Статья 2</h3>
+
+        <p>Размер блока:<br>
+            <img src="icon_mail.png" align="right">
             Занимает всю доступную ширину<br>
             Присутсвует цвет фона<br>
             Отступ снизу от соседей .2em при свойстве margin-bottom<br>
             Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи<br>
             еще строка<br>
-            еще строка
+            еще строка<br>
 
         </p>
+
     </div>
     <div class="footer">Нижний блок</div>
 
