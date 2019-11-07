@@ -4,16 +4,47 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .cards li {
+            background: url("cards.png") no-repeat;
+            display: inline-block;
+            width: 141px;
+            height: 191px;
+            border-radius: 2px;
 
+        }
+        
+        .cards .three {
+            background-position: -142px -197px;
+            z-index: 1;
+        }
+
+        .cards .five {
+            background-position: -430px -595px;
+            position: relative;
+            left: -75px;
+            z-index: 2;
+        }
+
+        .cards .nine {
+            background-position: -286px -1391px;
+            position: relative;
+            left: -150px;
+            z-index: 3;
+        }
 
 
     </style>
 </head>
 <body>
-
-
-
-
-
+    <ul class="cards">
+        <li class="three"></li>
+        <li class="five"></li>
+        <li class="nine"></li>
+    </ul>
 </body>
 </html>
